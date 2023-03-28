@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form method="post" action="kakeibo">
+		<input type="text" th:value="${accountDate}">
+		<input type="text" th:value="${account}">
+		<input type="text" th:value="${amount}">
+		<input type="submit" value="登録">
+	</form>
+</body>
+</html>

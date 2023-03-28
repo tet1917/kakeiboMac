@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form method="post" action="kakeibo">
+		<span>日付<input type="text" th:value="${accountDate}"><span/>
+		<br>
+		<span>用途<input type="text" th:value="${account}"><span/>
+		<br>
+		<span>金額<input type="text" th:value="${amount}"><span/>
+		<br>
+		<input type="submit" value="登録">
+	</form>
+</body>
+</html>
